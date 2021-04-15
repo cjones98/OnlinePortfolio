@@ -1,16 +1,15 @@
+/*Body defines the color of the webpage, which is lightblue*/
 body{
 	background-color:lightblue;
 }
+
+/*The section below give the headers a color of black and puts the letters in a bold font*/
 h1{
 	color: black;
 	font-weight:bold;
 	}
 
+/*This next section make the color of our paragraphs dark gray*/
 p{
 	color: darkslategray;
-}
-table,th,td{
-border: 1px solid black;
-border-collapse: collapse;
-
 }
