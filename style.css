@@ -1,12 +1,16 @@
 /*Body defines the color of the webpage, which is lightblue*/
 body{
 	background-color:lightblue;
+	/*Changes background color:*/
 }
 
-/*The section below give the headers a color of black and puts the letters in a bold font*/
-h1{
+/*The section below give the headers a color of black and puts the letters in a bold font. text-align helps to center my header in the page*/
+h1{color: black;
+text-align: center; /* aligns text to center*/
+}
+h2{
 	color: black;
-	font-weight:bold;
+	font-weight:bold;/*Makes our text bold*/
 	}
 
 /*This next section make the color of our paragraphs dark gray*/
@@ -17,3 +21,10 @@ p{
 li{
 	color: darkslategray;
 }
+
+/*This bit of code reduces the size original image used so it will fit better on the page*/
+img{
+        max-width: 60%;
+        max-height: 10%;
+        display: block; /* remove extra space below image */
+    }
